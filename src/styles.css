@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box-row {
+  display: flex;
+  gap: 18px;
+}
+
+.box {
+  height: 120px;
+  width: 120px;
+  border: 1px solid;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.hidden {
+  visibility: hidden;
+}
